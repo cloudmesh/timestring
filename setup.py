@@ -11,9 +11,9 @@ classifiers = ["Development Status :: 5 - Production/Stable",
                "Programming Language :: Python :: 3.3",
                "Programming Language :: Python :: Implementation :: PyPy"]   
 
-setup(name='timestring',
+setup(name='cloudmesh_timestring',
       version=version,
-      description="Human expressed time to Dates and Ranges",
+      description="Human expressed time to Dates and Ranges. This is a modified version from the oriinal code with an Openstack compatiple pytz dependency.",
       long_description="""Converting strings of into representable time via Date and Range objects.
  Plus features to compare and adjust Dates and Ranges.""",
       classifiers=classifiers,
